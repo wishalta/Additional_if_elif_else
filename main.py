@@ -72,41 +72,86 @@ import random
 
 # 5
 
-b = random.randint(0, 2)
-a = random.randint(0, 2)
-c = random.randint(0, 2)
-e = random.randint(0, 2)
-
-nuliai = 0
-vienetai = 0
-dvejetai = 0
-print(a,b,c,e)
-
-if e == 0:
-    nuliai += 1
-if b == 0:
-    nuliai += 1
-if c == 0:
-    nuliai += 1
-if a == 0:
-    nuliai += 1
-print(f'Nuliu tiek {nuliai}')
-if a == 1:
-    vienetai += 1
-if b == 1:
-    vienetai += 1
-if c == 1:
-    vienetai += 1
-if e == 1:
-    vienetai += 1
-print(f'Vienetu tiek {vienetai}')
-if a == 2:
-    dvejetai += 1
-if b == 2:
-    dvejetai += 1
-if c == 2:
-    dvejetai += 1
-if e == 2:
-    dvejetai += 1
-print(f'Dvjejetu tiek {dvejetai}')
+# b = random.randint(0, 2)
+# a = random.randint(0, 2)
+# c = random.randint(0, 2)
+# e = random.randint(0, 2)
 #
+# nuliai = 0
+# vienetai = 0
+# dvejetai = 0
+# print(a,b,c,e)
+#
+# if e == 0:
+#     nuliai += 1
+# if b == 0:
+#     nuliai += 1
+# if c == 0:
+#     nuliai += 1
+# if a == 0:
+#     nuliai += 1
+# print(f'Nuliu tiek {nuliai}')
+# if a == 1:
+#     vienetai += 1
+# if b == 1:
+#     vienetai += 1
+# if c == 1:
+#     vienetai += 1
+# if e == 1:
+#     vienetai += 1
+# print(f'Vienetu tiek {vienetai}')
+# if a == 2:
+#     dvejetai += 1
+# if b == 2:
+#     dvejetai += 1
+# if c == 2:
+#     dvejetai += 1
+# if e == 2:
+#     dvejetai += 1
+# print(f'Dvjejetu tiek {dvejetai}')
+# #
+
+# 6
+
+# a = random.randint(-10, 10)
+# b = random.randint(-10, 10)
+# c = random.randint(-10, 10)
+#
+# print (a, b, c)
+#
+# if a < 0:
+#     print(f'[{a}]')
+# if b < 0:
+#     print(f'[{b}]')
+# if c < 0:
+#     print(f'[{c}]')
+# if a == 0:
+#     print(f'({a})')
+# if b == 0:
+#     print(f'({b})')
+# if c == 0:
+#     print(f'({c})')
+# if a > 0:
+#     print('{', a, '}')
+# if b > 0:
+#     print('{', b, '}')
+# if c > 0:
+#     print('{', c, '}')
+
+# 7
+
+a = random.randint(5, 5000)
+print(a)
+b = 0
+c = 0
+
+if a >= 5 and a <1000:
+    print(f'Perkama {a} zvakiu, uz {a} Euru')
+if a >= 1000 and a < 2000:
+    b = a / 100 * 97
+    c = "{:.2f}".format(b)
+    print(f'Perkama {a} zvakiu, uz {b} Euru')
+if a >= 2000:
+    b = a / 100 * 96
+    c = "{:.2f}".format(b)
+    print(f'Perkama {a} zvakiu, uz {b} Euru')

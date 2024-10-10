@@ -140,18 +140,38 @@ import random
 
 # 7
 
-a = random.randint(5, 5000)
-print(a)
-b = 0
-c = 0
+# a = random.randint(5, 5000)
+# print(a)
+# b = 0
+# c = 0
+#
+# if a >= 5 and a <1000:
+#     print(f'Perkama {a} zvakiu, uz {a} Euru')
+# if a >= 1000 and a < 2000:
+#     b = a / 100 * 97
+#     c = "{:.2f}".format(b)
+#     print(f'Perkama {a} zvakiu, uz {b} Euru')
+# if a >= 2000:
+#     b = a / 100 * 96
+#     c = "{:.2f}".format(b)
+#     print(f'Perkama {a} zvakiu, uz {b} Euru')
 
-if a >= 5 and a <1000:
-    print(f'Perkama {a} zvakiu, uz {a} Euru')
-if a >= 1000 and a < 2000:
-    b = a / 100 * 97
-    c = "{:.2f}".format(b)
-    print(f'Perkama {a} zvakiu, uz {b} Euru')
-if a >= 2000:
-    b = a / 100 * 96
-    c = "{:.2f}".format(b)
-    print(f'Perkama {a} zvakiu, uz {b} Euru')
+# 8
+
+a = random.randint(0, 100)
+b = random.randint(0, 100)
+c = random.randint(0, 100)
+print(a, b, c)
+d = 0
+e = 0
+f = 0
+g = 0
+
+if a > 10 and a < 90 and b > 10 and b < 90 and c > 10 and c < 90:
+    d = (a + b + c) / 3
+    e = "{:.0f}".format(d)
+    print(e)
+if a < 10 or 90 < a or b < 10 or
+    f = b + c/2
+    e ="{:.0f}".format(f)
+    print

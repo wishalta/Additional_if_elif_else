@@ -46,16 +46,67 @@ import random
 
 # 3
 
-b = random.randint(0, 25)
-a = random.randint(0, 25)
-c = random.randint(0, 25)
-
-if b > a and b < c or b > c and a > b:
-    print(f'{b}')
-elif c > a and b > c or c > b and c < a:
-    print(f'{c}')
-elif b < a and a < c or a > c and a < b:
-    print(f'{a}')
+# b = random.randint(0, 25)
+# a = random.randint(0, 25)
+# c = random.randint(0, 25)
+#
+# if b > a and b < c or b > c and a > b:
+#     print(f'{b}')
+# elif c > a and b > c or c > b and c < a:
+#     print(f'{c}')
+# elif b < a and a < c or a > c and a < b:
+#     print(f'{a}')
+# else:
+#     print(False)
 
 # 4
 
+# b = random.randint(0, 10)
+# a = random.randint(0, 10)
+# c = random.randint(0, 10)
+#
+# if a + b > c and a + c > b and c + b > a:
+#     print('Gali buti trikampis')
+# else:
+#     print('Negali')
+
+# 5
+
+b = random.randint(0, 2)
+a = random.randint(0, 2)
+c = random.randint(0, 2)
+e = random.randint(0, 2)
+
+nuliai = 0
+vienetai = 0
+dvejetai = 0
+print(a,b,c,e)
+
+if e == 0:
+    nuliai += 1
+if b == 0:
+    nuliai += 1
+if c == 0:
+    nuliai += 1
+if a == 0:
+    nuliai += 1
+print(f'Nuliu tiek {nuliai}')
+if a == 1:
+    vienetai += 1
+if b == 1:
+    vienetai += 1
+if c == 1:
+    vienetai += 1
+if e == 1:
+    vienetai += 1
+print(f'Vienetu tiek {vienetai}')
+if a == 2:
+    dvejetai += 1
+if b == 2:
+    dvejetai += 1
+if c == 2:
+    dvejetai += 1
+if e == 2:
+    dvejetai += 1
+print(f'Dvjejetu tiek {dvejetai}')
+#

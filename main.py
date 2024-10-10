@@ -20,6 +20,7 @@ import random
 # elif e > g:
 #     print(f'Nesuspes iskepti {e - g} kepalu')
 
+# kiek is tikruju pardavei
 # 1
 
 # name = input('Jusu vardas: ')
@@ -31,4 +32,16 @@ import random
 
 # 2
 
-random.randint(0, 4)
+b = random.randint(0, 4)
+a = random.randint(0, 4)
+
+if b > a:
+    c = a / b
+    ats = "{:.2f}".format(c)
+    print(ats)
+elif a > b:
+    c = b / a
+    ats = "{:.2f}".format(c)
+    print(ats)
+
+# neradau :')

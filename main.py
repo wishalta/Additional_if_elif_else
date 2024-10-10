@@ -58,3 +58,4 @@ elif b < a and a < c or a > c and a < b:
     print(f'{a}')
 
 # 4
+

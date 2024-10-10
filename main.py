@@ -32,16 +32,29 @@ import random
 
 # 2
 
-b = random.randint(0, 4)
-a = random.randint(0, 4)
+# b = random.randint(0, 4)
+# a = random.randint(0, 4)
+#
+# if b > a:
+#     c = a / b
+#     ats = "{:.2f}".format(c)
+#     print(ats)
+# elif a > b:
+#     c = b / a
+#     ats = "{:.2f}".format(c)
+#     print(ats)
 
-if b > a:
-    c = a / b
-    ats = "{:.2f}".format(c)
-    print(ats)
-elif a > b:
-    c = b / a
-    ats = "{:.2f}".format(c)
-    print(ats)
+# 3
 
-# neradau :')
+b = random.randint(0, 25)
+a = random.randint(0, 25)
+c = random.randint(0, 25)
+
+if b > a and b < c or b > c and a > b:
+    print(f'{b}')
+elif c > a and b > c or c > b and c < a:
+    print(f'{c}')
+elif b < a and a < c or a > c and a < b:
+    print(f'{a}')
+
+# 4
